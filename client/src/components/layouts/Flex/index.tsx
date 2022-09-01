@@ -53,7 +53,7 @@ export const Flex = ({
         flex-direction: ${flexDirection};
         flex-wrap: ${flexWrap};
         justify-content: ${justifyContent};
-        //And then our standard CSS
+        //And then  standard CSS
         ${!noDefaultStyle && DefaultCss()}
         ${StandardCSS(styles)}
       //Here we add additional css

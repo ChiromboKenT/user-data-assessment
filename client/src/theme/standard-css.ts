@@ -11,7 +11,6 @@ const StandardCSS = (styles: StandardProps) => {
     color: ${styles.color};
     //OR we could overwrite, as shown in the next two lines. We need to figure out which is less expensive.
 
-    disabled: ${styles.disabled};
     cursor: ${styles.cursor};
     //MARGINS
 
