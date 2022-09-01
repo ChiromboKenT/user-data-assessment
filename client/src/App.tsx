@@ -4,10 +4,15 @@ import React, { useState } from "react";
 import Accordion from "./components/standard-elements/Accordion";
 import Card from "./components/standard-elements/Card";
 import Heading from "./components/typography/Heading";
+import { useGetUserDataQuery } from "./features/api";
 import theme from "./theme/theme";
 
 function App() {
   const [isOpen, setIsOpen] = useState(true);
+  const { data, isLoading, isFetching, isError } =
+    useGetUserDataQuery("/users");
+
+  console.log(data);
   return (
     <div
       css={css`
