@@ -27,7 +27,7 @@ const Accordion = ({
 } & StandardProps) => {
   const accordionItems = useRef<any>();
   return (
-    <Container {...styles}>
+    <Container noDefaultStyle m={theme.margins.standard} {...styles}>
       <div
         onClick={() => onClick && onClick()}
         style={{ cursor: `${onClick ? "pointer" : "initial"}` }}
