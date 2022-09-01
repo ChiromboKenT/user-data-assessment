@@ -1,6 +1,7 @@
 import StandardProps from "../../../theme/standard-props";
 import theme from "../../../theme/theme";
 import Container from "../../layouts/Container";
+import Heading from "../../typography/Heading";
 
 const Card = ({
   heading,
@@ -18,11 +19,11 @@ const Card = ({
     borderRadius={theme.borderRadius.normal}
     {...styles}
   >
-    {/* {heading && (
-    //   <Heading variant="card_heading" level="sub" m={0} p={0}>
-    //     {heading}
-    //   </Heading>
-    )} */}
+    {heading && (
+      <Heading variant="card_heading" level="sub" m={0} p={0}>
+        {heading}
+      </Heading>
+    )}
     {children}
   </Container>
 );
