@@ -33,7 +33,14 @@ const Accordion = ({
         style={{ cursor: `${onClick ? "pointer" : "initial"}` }}
       >
         <Flex {...headerStyles}>
-          <Heading variant="card_heading" level="sub" m={0} p={0} flex="1">
+          <Heading
+            variant="card_heading"
+            level="sub"
+            m={0}
+            p={0}
+            flex="1"
+            color={theme.colors.primaryCta}
+          >
             {heading}
           </Heading>
           <ToggleSwitch name={name} isOn={show} handleToggle={setIsShow} />
@@ -42,10 +49,10 @@ const Accordion = ({
       <Container
         m="0"
         mb={theme.margins.standard}
+        p={theme.padding.standard}
         addCss={css`
           transition: height ease-in 0.3s;
         `}
-        p="0"
         height={!show ? "0" : "auto"}
         overflowY={!show ? "hidden" : "initial"}
       >
