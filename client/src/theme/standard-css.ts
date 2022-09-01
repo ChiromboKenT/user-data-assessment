@@ -3,13 +3,13 @@ import { css } from "@emotion/react";
 import StandardProps from "./standard-props";
 import theme from "./theme";
 
-//Here we build out our standard css stylesheet
+//build out our standard css stylesheet
 const StandardCSS = (styles: StandardProps) => {
   return css`
     //The idea is to have conditional CSS. Basically, if the prop is provided to the component, it overwrites the
     //default theme value.
     color: ${styles.color};
-    //OR we could overwrite, as shown in the next two lines. We need to figure out which is less expensive.
+    //OR  could overwrite, as shown in the next two lines. We need to figure out which is less expensive.
 
     cursor: ${styles.cursor};
     //MARGINS
