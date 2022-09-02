@@ -54,6 +54,8 @@ If the installation was successful, you should be able to run the following comm
 
 ## Usage Locally
 
+###Rename .env_sample to .env
+
 ### Run Backend
 
 - Navigate to user-data-assessment folder then api folder
