@@ -5,7 +5,6 @@ import ClipLoader from "react-spinners/ClipLoader";
 import { Flex } from "./components/layouts/Flex";
 import Accordion from "./components/standard-elements/Accordion";
 import Card from "./components/standard-elements/Card";
-import Heading from "./components/typography/Heading";
 import { useGetUserDataQuery } from "./features/api";
 import theme from "./theme/theme";
 import ReactJson from "react-json-view";
