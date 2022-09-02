@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Amver User Data Assessment 👋</h1>
+<h1 align="center">Welcome to Amber User Data Assessment 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/ChiromboKenT/user-data-assessment#readme" target="_blank">
