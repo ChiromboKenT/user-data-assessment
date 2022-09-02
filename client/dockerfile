@@ -1,7 +1,7 @@
 FROM node:16-alpine3.14 as build
 
 ARG REACT_APP_SERVICES_HOST=http://localhost
-ARG REACT_APP_SOCKET_URL=http://localhost:5000
+ARG REACT_APP_API_HOST=http://localhost:5000/api/v1
 ARG REACT_APP_ENV=production
 WORKDIR /app
 
